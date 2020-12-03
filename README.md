@@ -18,8 +18,8 @@ C. Server: <br />
 &nbsp &nbsp &nbsp &nbsp COOKIE_SECRET=daniel@cognni_assignment <br />
 &nbsp &nbsp &nbsp &nbsp bcrypt_saltRounds=13 <br />
 &nbsp &nbsp 2. Before using the endpoint '/report' for getting status snapshot from the server: <br />
-&nbsp &nbsp &nbsp &nbsp Create a cookie and set it in the header of the request, for eample in the Postman:<br />
-![image of postman-cookie-example](https://github.com/danielbs93/Assignment/blob/main/postman-cookie-example.png?raw=true)
+&nbsp &nbsp &nbsp &nbsp Create a cookie and set it in the header of the request, for eample in the Postman:<br /><br />
+![Postman cookie example] (https://github.com/danielbs93/Assignment/blob/main/postman-cookie-example.png?raw=true)
 
 ## Available Scripts
 
