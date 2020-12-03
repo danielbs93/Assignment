@@ -8,15 +8,18 @@ Written in JavaScript.<br />
 A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.<br />
 <br />
 B. Generator & Receiver: <br />
-    &nbsp1. create .env file, for each, with the next following lines: <br />
-       &nbsp algorithm=aes-256-ctr <br />
-        crypto_key=coGnNiAssignMent2020DBS1993keY12 <br />
-        iv=16 <br />
+&nbsp &nbsp 1. create .env file, for each, with the next following lines: <br />
+&nbsp &nbsp &nbsp &nbsp algorithm=aes-256-ctr <br />
+&nbsp &nbsp &nbsp &nbsp crypto_key=coGnNiAssignMent2020DBS1993keY12 <br />
+&nbsp &nbsp &nbsp &nbsp iv=16 <br />
 <br />
 C. Server: <br />
-    1. create .env file with the next following lines: <br />
-        COOKIE_SECRET=daniel@cognni_assignment <br />
-        bcrypt_saltRounds=13 <br />
+&nbsp &nbsp 1. create .env file with the next following lines: <br />
+&nbsp &nbsp &nbsp &nbsp COOKIE_SECRET=daniel@cognni_assignment <br />
+&nbsp &nbsp &nbsp &nbsp bcrypt_saltRounds=13 <br />
+&nbsp &nbsp 2. Before using the endpoint '/report' for getting status snapshot from the server: <br />
+&nbsp &nbsp &nbsp &nbsp Create a cookie and set it in the header of the request, for eample in the Postman:
+
 
 ## Available Scripts
 
@@ -40,7 +43,7 @@ report_interval_argument - number, that represents seconds, the interval for sen
 #### `npm start path`
 <br />
 path - dir path for saving reports from the Generator & Receiver.<br />
-        In the same dir path we will save the .logger file as well.<br />
+&nbsp &nbsp &nbsp In the same dir path we will save the .logger file as well.<br />
 
 ### Debugging
 #### `npm debug *options`
