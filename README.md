@@ -1,6 +1,6 @@
 # Cognni Assignment
 <br />
-Creator: Daniel Ben-Simon.<br />
+Created by Daniel Ben-Simon.<br />
 Written in JavaScript.<br />
 
 ## Configurations
@@ -20,7 +20,7 @@ C. Server: <br />
 &nbsp &nbsp 2. Before using the endpoint '/report' for getting status snapshot from the server: <br />
 &nbsp &nbsp &nbsp &nbsp Create a cookie and set it in the header of the request, for eample in the Postman:<br /><br />
 <p align="center">
-  <img src="https://github.com/danielbs93/Assignment/blob/main/postman-cookie-example.png" width="500" title="Postman cookie example">
+  <img src="https://github.com/danielbs93/Assignment/blob/main/postman-cookie-example.png" width="650" title="Postman cookie example">
 </p>
 
 ## Available Scripts
