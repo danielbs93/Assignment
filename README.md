@@ -6,7 +6,7 @@ Written in JavaScript.<br />
 ## Configurations
 <br />
 A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.<br />
-
+<br />
 B. Generator & Receiver: <br />
     1. create .env file, for each, with the next following lines: <br />
         algorithm=aes-256-ctr <br />
@@ -19,7 +19,7 @@ C. Server: <br />
         bcrypt_saltRounds=13 <br />
 
 ## Available Scripts
-<br />
+
 ### First, for each project run:
 #### `npm i`
 <br />
@@ -48,8 +48,8 @@ path - dir path for saving reports from the Generator & Receiver.<br />
 For each project with their matching arguments we can run this debugging script.<br />
 
 <br />
-~ Your apps is ready to be deployed! ~
-<br />
+~ Your apps is ready to be deployed! ~ <br />
+
 ## Used modules & tools
 - nodemon<br />
 - amqplib<br />
