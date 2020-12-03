@@ -5,7 +5,7 @@ Written in JavaScript.<br />
 
 ## Configurations
 <br />
-A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.<br />
+A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling supporting JS.<br />
 <br />
 B. Generator & Receiver: <br />
 &nbsp &nbsp 1. create .env file, for each, with the next following lines: <br />
