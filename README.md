@@ -1,66 +1,66 @@
 # Cognni Assignment
-
-Creator: Daniel Ben-Simon.
-Written in JavaScript.
+<br />
+Creator: Daniel Ben-Simon.<br />
+Written in JavaScript.<br />
 
 ## Configurations
+<br />
+A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.<br />
 
-A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.
+B. Generator & Receiver: <br />
+    1. create .env file, for each, with the next following lines: <br />
+        algorithm=aes-256-ctr <br />
+        crypto_key=coGnNiAssignMent2020DBS1993keY12 <br />
+        iv=16 <br />
 
-B. Generator & Receiver: 
-    1. create .env file, for each, with the next following lines:
-        algorithm=aes-256-ctr
-        crypto_key=coGnNiAssignMent2020DBS1993keY12
-        iv=16
+C. Server: <br />
+    1. create .env file with the next following lines: <br />
+        COOKIE_SECRET=daniel@cognni_assignment <br />
+        bcrypt_saltRounds=13 <br />
 
-C. Server:
-    1. create .env file with the next following lines:
-        COOKIE_SECRET=daniel@cognni_assignment
-        bcrypt_saltRounds=13
-  
 ## Available Scripts
-
+<br />
 ### First, for each project run:
 #### `npm i`
-
+<br />
 Builds the app for production and creates the node_modules folder.<br />
 
 ### Generator activation:
 #### `npm start report_interval_argument`
-
-report_interval_argument - number, that represents seconds, the interval for sending to the server report.
+<br />
+report_interval_argument - number, that represents seconds, the interval for sending to the server report.<br />
 
 ### Receiver activation:
 #### `npm start path report_interval_argument`
-
-path - dir path for saving messages & calculations from the Generator.
-report_interval_argument - number, that represents seconds, the interval for sending to the server report.
+<br />
+path - dir path for saving messages & calculations from the Generator.<br />
+report_interval_argument - number, that represents seconds, the interval for sending to the server report.<br />
 
 ### Server activation:
 #### `npm start path`
-
-path - dir path for saving reports from the Generator & Receiver.
-        In the same dir path we will save the .logger file as well.
+<br />
+path - dir path for saving reports from the Generator & Receiver.<br />
+        In the same dir path we will save the .logger file as well.<br />
 
 ### Debugging
 #### `npm debug *options`
+<br />
+For each project with their matching arguments we can run this debugging script.<br />
 
-For each project with their matching arguments we can run this debugging script.
-
-
-* Your apps is ready to be deployed! *
-
+<br />
+~ Your apps is ready to be deployed! ~
+<br />
 ## Used modules & tools
-- nodemon
-- amqplib
-- express
-- bodyParser
-- dotenv
-- morgan
-- session
-- cookieParser
-- cors
-- fs
-- os
-- path
-- axios
+- nodemon<br />
+- amqplib<br />
+- express<br />
+- bodyParser<br />
+- dotenv<br />
+- morgan<br />
+- session<br />
+- cookieParser<br />
+- cors<br />
+- fs<br />
+- os<br />
+- path<br />
+- axios<br />
