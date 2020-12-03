@@ -8,11 +8,11 @@ Written in JavaScript.<br />
 A. For each folder in this repository {Generator, Reciever, Server} open a new project in VS Code or any other developer tooling support JS.<br />
 <br />
 B. Generator & Receiver: <br />
-    1. create .env file, for each, with the next following lines: <br />
-        algorithm=aes-256-ctr <br />
+    &nbsp1. create .env file, for each, with the next following lines: <br />
+       &nbsp algorithm=aes-256-ctr <br />
         crypto_key=coGnNiAssignMent2020DBS1993keY12 <br />
         iv=16 <br />
-
+<br />
 C. Server: <br />
     1. create .env file with the next following lines: <br />
         COOKIE_SECRET=daniel@cognni_assignment <br />
